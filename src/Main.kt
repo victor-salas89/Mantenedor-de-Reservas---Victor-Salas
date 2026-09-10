@@ -91,6 +91,7 @@ fun main() = runBlocking {
     }
 
 
+    val nombresClientes = listaReservas.map { it.nombreCliente }
     println("\nLista de clientes con reserva confirmada: $nombresClientes")
     println("==================================================")
 }
